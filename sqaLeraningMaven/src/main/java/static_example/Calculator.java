@@ -20,19 +20,19 @@ public class Calculator {
 		return a + b;
 	}
 	
-	public int mult(int x, int y) { 
+	public static int mult(int x, int y) { 
 		return x*y; 
 	}
 	
-	public int sub(int x, int y) { 
+	public static int sub(int x, int y) { 
 		return x-y; 
 	}
 	
-	public int sub(int x, int y, int z) { 
+	public static int sub(int x, int y, int z) { 
 		return x-y-z; 
 	}
 	
-	public Float divide(float x, float y){
+	public static Float divide(float x, float y){
 		return x/y;
 	}
 }

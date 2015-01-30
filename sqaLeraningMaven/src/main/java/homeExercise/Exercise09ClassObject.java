@@ -6,7 +6,7 @@ package homeExercise;
  * make=VW, model=2015. Write a main method that creates the object by passing 
  * these values. Print the values of the properties after the object is created
  */
-public class Exercise9ClassObject {
+public class Exercise09ClassObject {
 
 	//These are member variables/instance variables/properties
 	private String strColor;
@@ -14,7 +14,7 @@ public class Exercise9ClassObject {
 	private int intModel;
 
 	//This is a constructor
-	public Exercise9ClassObject(){		
+	public Exercise09ClassObject(){		
 		strColor="Blue";
 		strMake="VW";
 		intModel=2015;
@@ -46,7 +46,7 @@ public class Exercise9ClassObject {
 	}	
 	
 	public static void main(String args[]){
-		Exercise9ClassObject vm=new Exercise9ClassObject();
+		Exercise09ClassObject vm=new Exercise09ClassObject();
 		//String str = new String("abc");
 		System.out.println(vm.getStrColor());
 		System.out.println(vm.getStrMake());

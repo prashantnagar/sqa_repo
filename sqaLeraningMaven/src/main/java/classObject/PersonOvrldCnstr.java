@@ -1,12 +1,12 @@
 package classObject;
 
-public class OverloadedConstructor {
+public class PersonOvrldCnstr {
 	//Below are the properties/class variable/ instance variable/member variable		
 	private String name;		
 	private int age;
 	private String ssn;
 
-	public OverloadedConstructor(){
+	public PersonOvrldCnstr(){
 		//this(String,int,String);
 		this("abc",12,"432-4323-43");
 //		this.name="abc";
@@ -16,19 +16,19 @@ public class OverloadedConstructor {
 	}
 
 	//this(String,int,String)
-	public OverloadedConstructor(String name, int age, String ssn){		
+	public PersonOvrldCnstr(String name, int age, String ssn){		
 		this.name = name;
 		this.age = age;
 		this.ssn = ssn;
 	}
 
-	public OverloadedConstructor(String name, int age){
+	public PersonOvrldCnstr(String name, int age){
 		this(name,age,null);
 		//this.name=name;
 		//this.age=age;		
 	}		
 
-	public OverloadedConstructor(String name){
+	public PersonOvrldCnstr(String name){
 		this(name,0,null);		
 	}
 

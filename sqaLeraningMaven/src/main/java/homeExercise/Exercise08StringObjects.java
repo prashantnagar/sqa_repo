@@ -12,7 +12,7 @@ c)	Print second last character from 3
 d)	Print the position of first “c” in 1.
 
  */
-public class Exercise8StringObjects {
+public class Exercise08StringObjects {
 	
 	public static void main(String args[]){
 		String var1 = "Soccer";

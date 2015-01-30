@@ -1,6 +1,6 @@
 package homeExercise;
 
-public class Exercise6StringArr {
+public class Exercise06StringArr {
 	
 	/*
 	 * Define a function that accepts a String array and print 

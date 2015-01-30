@@ -7,7 +7,11 @@ public class Car extends Vehicle{
 	
 	public Car(){		
 		System.out.println("This is from Car");
-		this.engineCap = 3;		
+		//this.engineCap = 3;		
+	}
+	
+	public Car(int engineCap){
+		this.engineCap = engineCap;
 	}
 	
 	public Car(int engineCap, boolean isFourWheel, int maxSpeed, 

@@ -1,6 +1,6 @@
 package homeExercise;
 
-public class Exercise5AddArray {
+public class Exercise05AddArray {
 	
 	/*
 	 * Define a function “addArray” that:

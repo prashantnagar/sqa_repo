@@ -27,14 +27,14 @@ public class PersonCaller {
 		//Calling overloaded constructor
 		System.out.println("Creating objects with overloaded constructors *****");
 		//Calling the default consturctor.
-		OverloadedConstructor oc0 = new OverloadedConstructor();
+		PersonOvrldCnstr oc0 = new PersonOvrldCnstr();
 		System.out.println("name from default const. : "+oc0.getName());
 		
-		OverloadedConstructor oc = new OverloadedConstructor("myName",23,"432-54-5435");			
+		PersonOvrldCnstr oc = new PersonOvrldCnstr("myName",23,"432-54-5435");			
 		oc.printName();
 		System.out.println("Age is : "+oc.getAge());			
 		
-		OverloadedConstructor oc2 = new OverloadedConstructor("yourName",534);			
+		PersonOvrldCnstr oc2 = new PersonOvrldCnstr("yourName",534);			
 		oc2.printName();
 		System.out.println("Age is : "+oc2.getAge());			
 	}
