@@ -14,6 +14,7 @@ public class CalculatorTestNg {
 	@BeforeSuite
 	public void beforeSuite() {
 		System.out.println("in beforeSuite Again!!");
+		log.info("in beforeSuite Again!!");
 		//implement the logic that should get executed before any of your tests are triggered.		
 	}
 	
