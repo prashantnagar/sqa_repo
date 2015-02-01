@@ -5,6 +5,11 @@ public class StudentInfo {
 	private String studentName;
 	private int studentZip;		
 	
+	public StudentInfo(int id, String name, int zip) {
+		this.studentId = id;
+		this.studentName = name;
+		this.studentZip = zip;
+	}
 	public int getStudentId() {
 		return studentId;
 	}

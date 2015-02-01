@@ -1,6 +1,6 @@
 package testNg;
 
-import homeExercise.TestExer25PrimeNumber;
+import junitTests.TestExer25PrimeNumber;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -29,7 +29,7 @@ public class ParamTestWithDataProvider1 {
 		//log.info(inputNumber + " " + expectedResult);
 		System.out.println(inputNumber + " " + expectedResult);
 		Assert.assertEquals(expectedResult,
-				primeNumberChecker.validate(inputNumber));
+				primeNumberChecker.isPrimeNumber(inputNumber));
 	}
 	
 	@Test(dataProvider = "addInput")

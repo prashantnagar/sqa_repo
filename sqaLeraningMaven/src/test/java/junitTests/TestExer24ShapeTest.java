@@ -12,6 +12,8 @@ public class TestExer24ShapeTest {
 	@Test
 	public void testCircleArea(){
 		Exercise18Circle cir = new Exercise18Circle("myCir",5);
+		Assert.assertEquals(5, 5);
+		
 		Assert.assertEquals(79,cir.getArea(),1);
 	}
 	
